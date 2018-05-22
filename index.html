@@ -25,17 +25,35 @@
 </head>
 <body >
     <div id='contain'>
-        <!-- Indicates a successful or positive action -->
-        <button type="button" class="btn btn-success">（成功）Success</button>
+        <div>
+            <!-- Indicates a successful or positive action -->
+            <button type="button" class="btn btn-success">（成功）Success</button>
 
-        <!-- Contextual button for informational alert messages -->
-        <button type="button" class="btn btn-info">（一般信息）Info</button>
+            <!-- Contextual button for informational alert messages -->
+            <button type="button" class="btn btn-info">（一般信息）Info</button>
 
-        <!-- Indicates caution should be taken with this action -->
-        <button type="button" class="btn btn-warning">（警告）Warning</button>
+            <!-- Indicates caution should be taken with this action -->
+            <button type="button" class="btn btn-warning">（警告）Warning</button>
 
-        <!-- Indicates a dangerous or potentially negative action -->
-        <button type="button" class="btn btn-danger">（危险）Danger</button>
+            <!-- Indicates a dangerous or potentially negative action -->
+            <button type="button" class="btn btn-danger">（危险）Danger</button>
+        </div>
+        <div>
+            <pre>
+                    $('.btn-warning').on('click',function(){
+                        $.notice.warning('成功')
+                    })
+                    $('.btn-danger').on('click',function(){
+                        $.notice.danger('成功')
+                    })
+                    $('.btn-info').on('click',function(){
+                        $.notice.info('成功')
+                    })
+                    $('.btn-success').on('click',function(){
+                        $.notice.success('成功')
+                    })
+            </pre>
+        </div>
     </div>
 
 </body>

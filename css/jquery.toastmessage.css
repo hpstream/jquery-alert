@@ -16,8 +16,8 @@
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	color: #eee;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 6px;
 	padding-right: 6px;
 	font-family: lucida Grande;
@@ -30,8 +30,7 @@
 
 .toast-item p {
     text-align: left;
-    margin-left: 50px;
-    margin-right: 15px;
+    margin: 0 15px;
 }
 
 .toast-item-close {
@@ -77,21 +76,29 @@
  *
  */
 .toast-type-notice {
-    color: white;
+    background-color: #f4f4f5;
+    color: #909399;
+    border: 2px solid#909399;
 }
 
 .toast-type-success {
-    color: white;
+    /* color: white; */
+    background-color: #f0f9eb;
+    color: #3ac267;
+    border: 2px solid #3ac267;
 }
 
 .toast-type-warning {
-    color: white;
-    border-color: #FCBD57;
+    background-color: #fdf6ec;
+    color: #e6a23c;
+    border: 2px solid #e6a23c;
 }
 
 .toast-type-error {
-    color: white;
-    border-color: #B32B2B;
+    /* color: white; */
+    background-color: #fef0f0;
+    color: #f56c6c;
+    border: 2px solid #f56c6c;
 }
 
 /**

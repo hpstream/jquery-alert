@@ -1,4 +1,5 @@
 # jquery-alert
+[在线案例地址](https://hpstream.github.io/jquery-alert/)
 
 # 插件 jquery.toastmessage.js
 # github 地址
@@ -49,4 +50,8 @@
 
 
 ```
-[在线案例地址](https://hpstream.github.io/jquery-alert/)
+---
+# jquery-comfirm.js（v3.3.0）
+
+[官方网站](http://craftpip.github.io/jquery-confirm/#confirm)
+

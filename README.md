@@ -57,4 +57,5 @@
 # jquery-comfirm.js（v3.3.0）
 jquert-confirm 网站比较齐全
 [官方网站](http://craftpip.github.io/jquery-confirm/#confirm)
+
 [api文档](http://craftpip.github.io/jquery-confirm/#api)

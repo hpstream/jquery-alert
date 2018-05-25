@@ -5,6 +5,8 @@
 [在线案例地址](https://hpstream.github.io/jquery-alert/)
 
 # 插件 jquery.toastmessage.js
+注意：由于没有在线cdn，所以可以在换成
+[Jquery Toast Plugin](https://kamranahmed.info/toast#)
 # github 地址
 ## https://github.com/akquinet/jquery-toastmessage-plugin
 
@@ -59,3 +61,4 @@ jquert-confirm 网站比较齐全
 [官方网站](http://craftpip.github.io/jquery-confirm/#confirm)
 
 [api文档](http://craftpip.github.io/jquery-confirm/#api)
+
